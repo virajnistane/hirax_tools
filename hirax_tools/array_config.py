@@ -5,7 +5,7 @@ from functools import partial
 from itertools import combinations
 import numpy as np
 from scipy.interpolate import InterpolatedUnivariateSpline as spline
-from scipy.integrate import simps
+from scipy.integrate import simpson
 import matplotlib.pyplot as plt
 
 from astropy import coordinates as coords
